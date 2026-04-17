@@ -98,7 +98,7 @@ export default function Home() {
                         {isExpanded && (
                           <div className="text-sm text-gray-600 space-y-1 mt-2">
                             <p>Category: <span className="font-medium text-gray-900">{prod[1] || 'Uncategorized'}</span></p>
-                            <p>Selling Price<br> per Pack: <span className="font-medium text-gray-900">₱{prod[2] || '0.00'}</span></p>
+                            <p>Selling Price<br> per Pack: <span className="font-medium text-gray-900">{prod[2] || '0.00'}</span></p>
                           </div>
                         )}
 
