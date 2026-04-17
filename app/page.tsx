@@ -98,7 +98,7 @@ export default function Home() {
                         {isExpanded && (
                           <div className="text-sm text-gray-600 space-y-1 mt-2">
                             <p>Category: <span className="font-medium text-gray-900">{prod[1] || 'Uncategorized'}</span></p>
-                            <p>Cost Price: <span className="font-medium text-gray-900">₱{prod[2] || '0.00'}</span></p>
+                            <p>Selling Price per Pack: <span className="font-medium text-gray-900">₱{prod[2] || '0.00'}</span></p>
                           </div>
                         )}
 
@@ -111,7 +111,7 @@ export default function Home() {
 
                       {/* RIGHT SIDE: Price */}
                       <div className="flex flex-col items-end">
-                        {isExpanded && <span className="text-xs text-gray-400 font-bold uppercase tracking-wider mb-1">Ballpen Price</span>}
+                        {isExpanded && <span className="text-xs text-gray-400 font-bold uppercase tracking-wider mb-1">Selling Price</span>}
                         <span className={`font-extrabold text-green-600 transition-all ${isExpanded ? 'text-4xl' : 'text-xl'}`}>
                           {prod[3]}
                         </span>
