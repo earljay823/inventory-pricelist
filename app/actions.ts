@@ -28,7 +28,7 @@ export async function getProducts() {
     // 3. Fetch the data
     const response = await sheets.spreadsheets.values.get({
       spreadsheetId: process.env.GOOGLE_SHEET_ID,
-      range: 'Sheet1!A2:F1000', 
+      range: 'MASTER_SHEET!A2:F1000', 
     });
 
     return response.data.values || [];
