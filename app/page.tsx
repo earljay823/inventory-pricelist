@@ -88,7 +88,7 @@ export default function Home() {
           content: '';
           position: absolute;
           top: -40px; right: -40px;
-          width: 160px; height: 160px;
+          width: 160px; height: 100px;
           background: rgba(255,255,255,0.08);
           border-radius: 50%;
         }
@@ -96,7 +96,7 @@ export default function Home() {
           content: '';
           position: absolute;
           bottom: -20px; left: -20px;
-          width: 100px; height: 100px;
+          width: 100px; height: 80px;
           background: rgba(255,255,255,0.06);
           border-radius: 50%;
         }
