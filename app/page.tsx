@@ -441,7 +441,7 @@ export default function Home() {
 
       {/* HEADER */}
       <div className="app-header">
-        <div className="app-title">🛒 Earl's Inventory</div>
+        <div className="app-title">Pricelist</div>
         <div className="app-subtitle">Product Price List</div>
       </div>
 
